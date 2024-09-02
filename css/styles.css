@@ -1,0 +1,68 @@
+
+
+/*Global Styles
+-------------------*/
+body{
+    background-color:azure;
+}
+
+/*links*/
+a{
+    color: rgb(32, 125, 218);
+}
+a:hover{
+    color: rgb(184, 219, 255);
+    text-decoration: none;
+}
+footer a{
+    color:rgb(141, 141, 209);
+}
+footer a:hover{
+    color: rgb(83, 83, 194);
+}
+
+/*buttons*/
+.btn{
+    background: rgb(32, 125, 218);
+    color: azure;
+    text-decoration: none;
+}
+
+/*Home
+-----------------*/
+.home{
+    background: url(../images/sharon-mccutcheon-unsplash.jpg) no-repeat;
+    background-size: cover;
+}
+.home  .content-wrapper {
+    background: rgba(205, 202, 202, 0.9);
+}
+
+/*Resume
+------------------*/
+.prjct_img{
+    width: 500px;
+}
+
+/*Profile
+------------------*/
+
+
+/*Projects
+-------------------*/
+
+
+/*Work Experience
+-------------------*/
+
+
+/*Education
+--------------------*/
+
+
+/*Footer
+------------------*/
+footer{
+    background: #6d6d6d;
+    color: aliceblue;
+}
