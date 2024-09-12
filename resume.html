@@ -4,36 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body class="resume">
-    <main>
+    <a class="btn download-link" href="#">Download PDF</a>
+    <main class="content-wrapper">
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
-        <h1>Gael Ortiz</h1>
-        <h2>Web Developer Student</h2>
-
-        <p>Add your profile copy here. Add more paragraphs or links as needed. Here is some dummy text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum, diam ut gravida efficitur, risus neque scelerisque erat, ut rhoncus erat odio ac justo. Nunc scelerisque vestibulum augue, sit amet hendrerit ante.</p>
-        <p>Add another paragraph if needed.</p>
+        <div class="content-wrapper">
+          <h1>Gael Ortiz</h1>
+          <h2>Web Developer Student</h2>
+        </div>
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section>
+      <section class="resume-section">
         <h2>Featured Projects</h2>
         <p>View selected projects below.</p>
 
         <!-- Copy the whole <section> block to add more projects. -->
-        <section>
+        <section class="project-item">
           <h3>Project Name</h3>
           <img class="prjct_img" src="images/Screenshot 2024-09-02 at 2.23.31 PM.png" alt="Sprout & Grown project">
           <p>This is the home page to my Sprout & Grow project that I built for a course. The wesite was intended to be for a local nursery business.</p>
-          <a href="#" target="_blank">View project / case study</a>
+          <!--<a href="#" target="_blank">View project / case study</a>-->
         </section>
         <!-- End of Project block. -->
       </section>
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <section>
+      <section class="resume-section">
         <h2>Work Experience</h2>
         <!--<p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p> -->
 
@@ -55,7 +58,7 @@
       </section>
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section>
+      <section class="resume-section">
         <h2>Education</h2>
 
         <!-- Copy this whole <section> block to add more schools. -->

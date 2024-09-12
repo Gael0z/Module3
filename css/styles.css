@@ -4,7 +4,19 @@
 -------------------*/
 body{
     background-color:azure;
+    font-family: "Acme", system-ui;
+    font-size: 1.5rem;
 }
+
+html{
+    box-sizing: border-box;
+    font-size: large;
+}
+
+html, body{
+    height: 100%;
+}
+
 
 /*links*/
 a{
@@ -28,6 +40,13 @@ footer a:hover{
     text-decoration: none;
 }
 
+.content-wrapper{
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+
+
 /*Home
 -----------------*/
 .home{
@@ -44,9 +63,31 @@ footer a:hover{
     width: 500px;
 }
 
+.resume-section{
+    margin-bottom: 50px;
+}
+
+.resume-section h2{
+    border-bottom: 2px solid rgb(32, 125, 218) ;
+}
+
+download-link{
+    position: fixed;
+    top: 10px;
+    left: 5pxx;
+}
+
 /*Profile
 ------------------*/
+.project-item{
+    display: flow-root;
+}
 
+.project-item img{
+    width: 350px;
+    float: left;
+    margin-right: 20px;
+}
 
 /*Projects
 -------------------*/
